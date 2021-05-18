@@ -1,0 +1,529 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+ul, li{
+    list-style: none;
+
+}
+.container{
+
+    width:1110px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ==============NavBar Start ================== */
+nav .main{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+nav{
+   width: 100%;
+   background: #fbdfe6;
+   position: absolute;
+   width: 100%; 
+    
+}
+nav  .nav_logo{
+  
+    width: 19%;
+   
+     
+}
+
+nav .nav_item {
+    
+  width: 66%;
+  display: flex;
+  
+   
+}
+
+nav  .nav_item :hover{
+    
+    color:#d50a51;
+}
+
+nav  .nav_item ul{
+    margin-top: 24px;
+    text-align: right;
+    
+
+}
+nav  .nav_item ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+   color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 15px;
+    transition: all linear .3s;
+    position: relative;
+    
+}
+
+nav .nav_button{
+    
+    width: 15%;
+    padding-top:10px;
+    
+    
+}
+nav .nav_button a{
+        display: inline-block;
+        padding: 8px 20px;
+        color: #d50a51;
+        background: #fbdfe6;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        border-radius: 25px;
+        border: 1px solid #d50a51;
+        transition: .4s;
+}
+nav .nav_button :hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+/* ==============NavBar Start ================== */
+
+
+/* ==============Banner Start ================== */
+
+#banner-part {
+     
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    
+}
+#banner-part .main{
+    display: flex;
+}
+#banner-part  .banner-img {
+    
+    padding-top: 150px;
+    width: 50%;
+    
+}
+
+ #banner-part  .banner-text {
+
+    width: 50%;
+    padding-top: 300px;
+    text-align: center;
+   
+}
+#banner-part  .banner-text h3{
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: -28px; 
+   
+}
+#banner-part  .banner-text h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: #d50a51;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+   
+
+}
+#banner-part  .banner-text p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+}
+
+#banner-part .banner-text a{
+    
+    width: 35%;
+    padding-top:10px;
+    
+    
+}
+#banner-part .banner-text a{
+        display: inline-block;
+        padding: 8px 20px;
+        color: #d50a51;
+        background: #faf6f7;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        border-radius: 25px;
+        border: 1px solid #d50a51;
+        transition: .4s;
+}
+#banner-part .banner-text  a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/*=============Bannar Part End =============*/
+
+/* =================History part start================ */
+#history{
+
+   
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#history .main{
+    display: flex;
+}
+#history .history-img{
+
+    width: 50%;
+}
+
+#history .history-text{
+
+    width: 50%;
+    margin-left: 20px;
+    
+}
+
+#history .history-text  .title h3{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: -30px;
+    
+}
+
+#history .history-text .title h2{
+
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    margin-left: -30px;
+}
+#history .history-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+/* ================= History part end ================= */
+
+
+/* ============proposal part start ========================= */
+#proposal-part{
+  
+
+background: #fff6da;
+}
+#proposal-part .main{
+
+    display: flex;
+}
+#proposal-part .proposal-text{
+
+    width: 70%;
+    padding-top: 80px;
+}
+
+#proposal-part .proposal-text  .title h3{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: -30px;
+    
+}
+
+#proposal-part .proposal-text .title h2{
+
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    margin-left: -30px;
+}
+#proposal-part .proposal-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 139%;
+}
+#proposal-part .proposal-text a{
+    
+    width: 35%;
+   
+    
+    
+}
+#proposal-part .proposal-text a{
+        display: inline-block;
+        padding: 8px 20px;
+        color: #d50a51;
+        background: #fff6da;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        border-radius: 25px;
+        border: 1px solid #d50a51;
+        transition: .4s;
+        text-align: center;
+        margin-left: 10px;
+}
+#proposal-part .proposal-text  a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+
+
+#proposal-part .proposal-img{
+
+   
+    margin-top: -110px;
+    right: 0;
+    
+}
+
+
+/* ============proposal part End ========================= */
+
+
+/* ============Ticket part start ============== */
+#ticket{
+ 
+    padding-top: 80px;
+ 
+}
+#ticket .main{
+    display: flex;
+   
+}
+
+#ticket .ticket-img{
+    width: 60%;
+    
+   
+}
+
+ #ticket .ticket-text{
+    width: 40%;
+    text-align: right;
+   
+}
+ 
+#ticket .ticket-text .main .title {
+
+    margin-left: 140px;
+    
+}
+#ticket .ticket-text  .title h3{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-right: -29px;
+    
+   
+    
+}
+
+#ticket .ticket-text .title h2{
+
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    margin-right: -29px;
+    
+}
+#ticket .ticket-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+
+#ticket .ticket-text a{
+    
+    width: 25%;
+   
+    
+    
+}
+#ticket .ticket-text a{
+        display: inline-block;
+        padding: 8px 20px;
+        color: #d50a51;
+        background: #fff6da;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        border-radius: 25px;
+        border: 1px solid #d50a51;
+        transition: .4s;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 100px;
+}
+#ticket .ticket-text  a:hover{
+    background: #d50a51;
+    color: #fff;
+}
+
+/* ============Ticket part End ============== */
+
+
+/* ============Service part Start ============== */
+
+#service-part{
+
+    background: #fef7fa;
+    padding-top: 50px;
+}
+
+#service-part .main{
+
+    display:flex;
+}
+#service-part .service-text{
+
+    width:31%;
+   
+}
+
+#service-part .service-text  .title h3{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    padding-top: 20px;
+    margin-left: -30px;
+    
+}
+
+#service-part .service-text .title h2{
+
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    margin-left: -30px;
+}
+#service-part .service-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    margin-bottom: 30px;
+   
+    text-align: left;
+}
+
+#service-part .service-card{
+    width: 30%;
+  
+    height: 200px;
+    margin-left: 20px; 
+}
+
+#service-part .service-card .title{
+
+    display: flex;
+}
+
+
+#service-part .service-card .title h5{
+/* vertical-align: -20px; */
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+     padding-top: 30px;
+    margin-left: 10px; 
+    color: #d50a51;
+    text-transform: capitalize;
+}
+
+#service-part .service-card p{
+font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    
+     width: 85%; 
+     padding-left: 10px;
+}
+
+ .service-card:hover{
+
+    background: #f1f1f1;
+    border-right: 3px solid transparent; 
+    transition: all linear .3s; 
+       border-color: #d50a51;   
+     -webkit-box-shadow: 0px 0px 6px 1px rgb(183 177 183);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(183,177,183,1);
+    box-shadow: 0px 0px 6px 1px rgb(183 177 183);  
+
+       /* padding: 0px 25px;  */
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============Service part End ============== */
